@@ -42,6 +42,9 @@ class MasterViewController: UIViewController, UITableViewDelegate, UITableViewDa
                     let controller = (segue.destination as! DetailViewController)
                     controller.detailItem = selectedBook
                 }
+                else if segue.identifier == "addBookSegue" {
+                    let controller = (segue.destination as! AddViewController)
+                }
             }
         }
 

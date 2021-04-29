@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF0A643D262A60180067A79A /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0A643C262A60180067A79A /* AddViewController.swift */; };
 		DF57B72E25F30F3B00E4E505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B72D25F30F3B00E4E505 /* AppDelegate.swift */; };
 		DF57B73025F30F3B00E4E505 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B72F25F30F3B00E4E505 /* SceneDelegate.swift */; };
 		DF57B73225F30F3B00E4E505 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B73125F30F3B00E4E505 /* MasterViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF0A643C262A60180067A79A /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		DF57B72A25F30F3B00E4E505 /* Bookstore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookstore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF57B72D25F30F3B00E4E505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF57B72F25F30F3B00E4E505 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				DF57B73B25F30F4100E4E505 /* Info.plist */,
 				DF57B74525F30FD700E4E505 /* BookStore.swift */,
 				DF57B74925F315D600E4E505 /* DetailViewController.swift */,
+				DF0A643C262A60180067A79A /* AddViewController.swift */,
 			);
 			path = Bookstore;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				DF57B74325F30F9100E4E505 /* Book.swift in Sources */,
 				DF57B73225F30F3B00E4E505 /* MasterViewController.swift in Sources */,
+				DF0A643D262A60180067A79A /* AddViewController.swift in Sources */,
 				DF57B72E25F30F3B00E4E505 /* AppDelegate.swift in Sources */,
 				DF57B74A25F315D600E4E505 /* DetailViewController.swift in Sources */,
 				DF57B74625F30FD700E4E505 /* BookStore.swift in Sources */,
